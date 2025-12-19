@@ -29,7 +29,7 @@ document.addEventListener("keydown",(e)=>{
     }
     if(e.key==="Enter") calculate();
     if(e.key==="Backspace") deleteLast();
-    if(e.key==="Escape") clearAll();
+    if(e.key==="Delete") clearAll();
 });
 
 // logic
